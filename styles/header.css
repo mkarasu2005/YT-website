@@ -1,0 +1,236 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(240, 240, 240);
+    z-index: 100;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.centre{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    
+}
+.serbutton{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    border-color: rgb(192, 192, 192);
+    margin-right: 8px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serbutton .seric{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition:0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.serbutton:hover .seric{
+    opacity: 1;
+}
+.searchicon{
+    height: 25px;
+}
+.micbutton{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.micbutton .mi{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition:0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.micbutton:hover .mi{
+    opacity: 1;
+}
+.micicon{
+    height: 24px;
+    
+}
+.right{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.lii{
+    height: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+    height: 24px;
+    cursor: pointer;
+}
+.youlogo{
+    height: 20px;
+}
+.cre{
+    height: 24px;
+    cursor: pointer;
+}
+.up{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.up .seric{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition:0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.up:hover .seric{
+    opacity: 1;
+}
+.lo{
+    height: 24px;
+    cursor: pointer;
+}
+.be{
+    height: 24px;
+    cursor: pointer;
+}
+.notify{
+    position: relative;
+    cursor: pointer;
+}
+.notify{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.notify .no{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition:0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.notify:hover .no{
+    opacity: 1;
+}
+
+.count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 50px;
+    
+}
+.our{
+    height: 32px;
+    border-radius: 16px;
+    cursor: pointer;
+}
